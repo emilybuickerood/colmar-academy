@@ -1,0 +1,21 @@
+html {
+  font-size: 16px;
+}
+
+header {
+  height: 64px;
+  background-color: white;
+  padding: 0px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+nav span {
+  padding-right: 16px;
+}
