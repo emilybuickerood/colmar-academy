@@ -10,12 +10,31 @@ header {
   align-items: center;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-family: 'Bitter', serif;
+  font-weight: 400;
+}
+
 .logo {
   display: flex;
   flex-grow: 1;
   align-items: center;
 }
 
-nav span {
+nav span a {
   padding-right: 16px;
+  font-family: 'Bitter', serif;
+  color: #242424;
+  text-decoration: none;
+}
+
+nav span a:hover {
+  color: #14cccc;
+}
+
+
+
+.main-container {
+  background-color: #242424;
 }
