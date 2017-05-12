@@ -3,16 +3,9 @@ html {
 }
 
 body {
-  background-color: #242424;
+  background-color: #d3d3d3;
 }
 
-header {
-  height: 64px;
-  background-color: white;
-  padding: 0px 24px;
-  display: flex;
-  align-items: center;
-}
 
 h1 {
   text-transform: uppercase;
@@ -35,18 +28,58 @@ h4 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 span {
   font-family: 'Montserrat', sans-serif;
 }
 
+.main-container {
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #fff;
+  height: 64px;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  padding: 0px 24px;
+  width: 100%;
+}
+
 .logo {
   display: flex;
   flex-grow: 1;
-  align-items: center;
 }
+
+.top h1 {
+  margin: auto 0;
+}
+
+span.navigation {
+  color: #000;
+  padding-right: 24px;
+}
+
+
+
 
 nav span a {
   padding-right: 16px;
@@ -60,24 +93,19 @@ nav span a:hover {
 }
 
 
-
-.main-container {
-}
-
 .main-container span {
   color: #fff;
 }
 
 .banner {
-    margin: 32px 24px;
+    padding: 32px 24px;
     display: flex;
+    width: 100%;
 }
 
 .banner img {
   width: 60%;
-  height: auto;
-  display: block;
-  padding-right: 40px;
+
 }
 
 .image-container {
@@ -111,6 +139,7 @@ nav span a:hover {
 .practicing {
   background-color: #f0ffff;
   padding: 32px 24px 0px 24px;
+  display: flex;
 }
 
 .practicing img {
@@ -124,6 +153,16 @@ nav span a:hover {
   padding-bottom: 24px;
 }
 
+.practicing p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.practicing span {
+  color: #242424;
+}
+
 .side-bar {
   background: #fff;
   width: 423px;
@@ -132,6 +171,7 @@ nav span a:hover {
 }
 
 .learning {
+  padding-top:
   margin: 32px 0px;
 }
 
