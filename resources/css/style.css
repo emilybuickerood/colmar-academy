@@ -14,37 +14,32 @@ h1 {
   font-size: 1.25em;
 }
 
+h2 {
+  font-family: 'Wellfleet', cursive;
+  font-weight: 700;
+  font-size: 2.25em;
+}
+
 h3 {
   font-family: 'Wellfleet', cursive;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 1.75em;
 }
 
 h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5em;
 }
 
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  font-size: .75em;
 }
 
 span {
   font-family: 'Montserrat', sans-serif;
-}
-
-.main-container {
-  max-width: 960px;
-  display: flex;
-  margin: 0 auto;
-}
-
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
 }
 
 header {
@@ -56,12 +51,14 @@ header {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .top {
   display: flex;
-  padding: 0px 24px;
+  padding: 12px 24px;
   width: 100%;
+  align-items: center;
 }
 
 .logo {
@@ -72,13 +69,6 @@ header {
 .top h1 {
   margin: auto 0;
 }
-
-span.navigation {
-  color: #000;
-  padding-right: 24px;
-}
-
-
 
 
 nav span a {
@@ -92,26 +82,23 @@ nav span a:hover {
   color: #14cccc;
 }
 
-
-.main-container span {
-  color: #fff;
+.main-container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .banner {
-    padding: 32px 24px;
     display: flex;
-    width: 100%;
 }
 
-.banner img {
-  width: 60%;
-
-}
-
-.image-container {
-  max-width: 100%;
-  height: auto;
+.image {
+  width: 860px;
+  margin-right: 40px;
+  padding: 32px 0px 32px 24px;
   display: block;
+}
+.image img {
+  width: 100%;
 }
 
 .get-started {
@@ -119,33 +106,36 @@ nav span a:hover {
   margin: auto 0px;
 }
 
-.get-started h3 {
+.get-started h2 {
   padding-bottom: 30px;
-  color: #fff;
+  color: #242424;
 }
 
 .get-started h4 {
   padding-bottom: 50px;
-  color: #fff;
+  color: #242424;
 }
 
 .get-started span {
-  color: #242424;
-  font-size: 1.5rem;
-  background-color: #fff;
+  color: #ffffff;
+  font-size: 1rem;
+  background-color: #242424;
   padding: 8px 120px;
 }
 
 .practicing {
   background-color: #f0ffff;
-  padding: 32px 24px 0px 24px;
   display: flex;
 }
 
+.main {
+    padding: 32px 24px 32px 24px;
+    display: block;
+    width: 600px;
+}
+
 .practicing img {
-  width: 60%;
-  height: auto;
-  display: block;
+  width: 100%;
   margin-bottom: 32px;
 }
 
@@ -154,7 +144,6 @@ nav span a:hover {
 }
 
 .practicing p {
-  font-size: 1.1rem;
   line-height: 1.5rem;
   padding-bottom: 20px;
 }
@@ -164,9 +153,7 @@ nav span a:hover {
 }
 
 .side-bar {
-  background: #fff;
   width: 423px;
-  float: right;
   border-left: 1px solid #242424;
 }
 
