@@ -33,6 +33,15 @@ h4 {
   font-size: 2rem;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+span {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .logo {
   display: flex;
   flex-grow: 1;
@@ -93,7 +102,6 @@ nav span a:hover {
 }
 
 .get-started span {
-  font-family: 'Montserrat', sans-serif;
   color: #242424;
   font-size: 1.5rem;
   background-color: #fff;
@@ -101,8 +109,26 @@ nav span a:hover {
 }
 
 .practicing {
-  margin: 32px 0px;
-  background-color: white;
+  background-color: #f0ffff;
+  padding: 32px 24px 0px 24px;
+}
+
+.practicing img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-bottom: 32px;
+}
+
+.practicing h3 {
+  padding-bottom: 24px;
+}
+
+.side-bar {
+  background: #fff;
+  width: 423px;
+  float: right;
+  border-left: 1px solid #242424;
 }
 
 .learning {
