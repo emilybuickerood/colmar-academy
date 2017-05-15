@@ -17,6 +17,7 @@ h1 {
 
 h2 {
   font-family: 'Cabin Sketch', cursive;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 2.5em;
   color: #242424;
@@ -24,6 +25,7 @@ h2 {
 
 h3 {
   font-family: 'Cabin Sketch', cursive;
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 1.75em;
   color: #242424;
@@ -38,6 +40,7 @@ h4 {
 
 h5 {
   font-family: 'Raleway', sans-serif;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 1em;
   color: #242424;
@@ -140,8 +143,12 @@ a:hover {
 .get-started span {
   color: #ffffff;
   font-size: 1rem;
-  background-color: #242424;
+  background-color:  #7fbbc8;
   padding: 8px 120px;
+}
+
+.get-started span:hover {
+    background-color: #242424;
 }
 
 .practicing {
@@ -243,9 +250,10 @@ a:hover {
   margin-bottom: 32px;
 }
 
-.learning .title {
+.start h2{
   text-align: center;
   margin-bottom: 32px;
+  color: #fff;
 }
 
 .courses {
@@ -269,6 +277,10 @@ a:hover {
   padding: 16px 16px 24px 16px;
 }
 
+.description h5 {
+  color: #7fbbc8;
+}
+
 .thesis {
   background-color: #f0f8ff;
   border-bottom: 1px solid #7fbbc8;
@@ -285,11 +297,13 @@ a:hover {
 }
 
 .video video {
-  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border: 1px solid  #7fbbc8;
 }
 
 .video h4 {
   font-family: 'Cabin Sketch', cursive;
+  text-transform: uppercase;
   margin-bottom: 10px;
 }
 
