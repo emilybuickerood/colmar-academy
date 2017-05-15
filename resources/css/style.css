@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-color: #d3d3d3;
+  background-color: #fff;
 }
 
 
@@ -49,7 +49,7 @@ span {
 }
 
 header {
-  background-color: #fff;
+  background-color: #f0ffff;
   height: 64px;
   align-items: center;
 }
@@ -93,6 +93,11 @@ a:hover {
   margin: 0 auto;
 }
 
+.small-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
 .banner {
     display: flex;
 }
@@ -131,6 +136,7 @@ a:hover {
 
 .practicing {
   background-color: #f0ffff;
+  width: 100%;
   display: flex;
 }
 
@@ -167,7 +173,6 @@ a:hover {
 
 .item {
   display: flex;
-  border-bottom: 1px solid #242424;
   align-items: center;
 }
 
@@ -175,6 +180,14 @@ a:hover {
   width: 35%;
   margin: 16px 16px 16px 16px;
   border: 1px solid #242424;
+}
+
+.item.orientation {
+    border-bottom: 1px solid #242424;
+}
+
+.item.campus {
+    border-bottom: 1px solid #242424;
 }
 
 .info h5 {
@@ -194,6 +207,7 @@ a:hover {
 
 .learning {
   padding: 32px 0px;
+  background-color: #d3d3d3;
 }
 
 .learning .title {
@@ -223,6 +237,50 @@ a:hover {
 }
 
 .thesis {
-  margin: 32px 0px;
+  background-color: #f0ffff;
+  border-bottom: 1px solid #242424;
+}
+
+.urban {
+  display: flex;
+  flex-grow: 1;
+}
+
+.video {
+  padding: 0px 16px 32px 24px;
+  width: 490px;
+}
+
+.video video {
+  padding-bottom: 24px;
+}
+
+.video h4 {
+  font-family: 'Wellfleet', cursive;
+  margin-bottom: 10px;
+}
+
+.exhibit {
+  padding: 32px 0px;
+  text-align: center;
+}
+
+.mini-side-bar {
+  width: 423px;
+}
+
+.item.fisma {
+  background-color: #ffffff;
+}
+
+.item.fisma p {
+  line-height: 1rem;
+}
+
+
+footer {
   background-color: white;
+  text-align: left;
+  padding: 20px 24px;
+  color: #242424;
 }
