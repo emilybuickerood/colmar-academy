@@ -196,6 +196,32 @@ a:hover {
   padding: 32px 0px;
 }
 
+.learning .title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.option {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.option img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 16px 16px 24px 16px;
+}
+
 .thesis {
   margin: 32px 0px;
   background-color: white;
