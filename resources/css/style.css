@@ -9,47 +9,55 @@ body {
 
 h1 {
   text-transform: uppercase;
-  font-family: 'Bitter', serif;
+  font-family: 'bitter', cursive;
   font-weight: 700;
   font-size: 1.25em;
+  color: #242424;
 }
 
 h2 {
-  font-family: 'Wellfleet', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-weight: 700;
   font-size: 2.5em;
+  color: #242424;
 }
 
 h3 {
-  font-family: 'Wellfleet', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-weight: 700;
   font-size: 1.75em;
+  color: #242424;
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   font-size: 1.5em;
+  color: #242424;
 }
 
 h5 {
-  font-family: 'Wellfleet', cursive;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 1em;
+  color: #242424;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   font-size: .75em;
+  color: #242424;
 }
 
 span {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #242424;
 }
 
 header {
-  background-color: #f0ffff;
+  background-color: #f0f8ff;
   height: 64px;
   align-items: center;
 }
@@ -79,13 +87,14 @@ header {
 
 a {
   padding-right: 16px;
-  font-family: 'Bitter', serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   color: #242424;
   text-decoration: none;
 }
 
 a:hover {
-  color: #14cccc;
+  color: 	#7fbbc8;
 }
 
 .main-container {
@@ -103,7 +112,7 @@ a:hover {
 }
 
 .image {
-  width: 680px;
+  width: 750px;
   margin-right: 40px;
   padding: 32px 0px 32px 24px;
   display: block;
@@ -119,7 +128,8 @@ a:hover {
 
 .get-started h2 {
   padding-bottom: 30px;
-  color: #242424;
+  color:  #7fbbc8;
+  text-transform: uppercase;
 }
 
 .get-started h4 {
@@ -135,9 +145,10 @@ a:hover {
 }
 
 .practicing {
-  background-color: #f0ffff;
+  background-color: #f0f8ff;
   width: 100%;
   display: flex;
+  margin-bottom: 32px;
 }
 
 .main {
@@ -153,6 +164,7 @@ a:hover {
 
 .practicing h3 {
   padding-bottom: 24px;
+  color: #7fbbc8;
 }
 
 .practicing p {
@@ -166,7 +178,7 @@ a:hover {
 
 .side-bar {
   width: 423px;
-  border-left: 1px solid #242424;
+  border-left: 2px solid #7fbbc8;
   display: flex;
   flex-direction: column;
 }
@@ -179,21 +191,41 @@ a:hover {
 .item img {
   width: 35%;
   margin: 16px 16px 16px 16px;
-  border: 1px solid #242424;
+  border: 1px solid #7fbbc8;
 }
 
 .item.orientation {
-    border-bottom: 1px solid #242424;
+    border-bottom: 2px solid #7fbbc8;
 }
 
 .item.campus {
-    border-bottom: 1px solid #242424;
+    border-bottom: 2px solid #7fbbc8;
+}
+
+.item.lecture {
+  background-color: #7fbbc8;
+}
+
+.item.lecture h5 {
+  color: #fff;
+}
+
+.item.lecture a {
+  color: #fff;
+}
+
+.item.lecture a:hover {
+  color: #242424;
+}
+
+.item.lecture img {
+  border: 1px solid #fff;
 }
 
 .info h5 {
   line-height: 1.5rem;
   padding-bottom: 8px;
-  color: #14cccc;
+  color: #7fbbc8;
 }
 
 .info p {
@@ -207,7 +239,8 @@ a:hover {
 
 .learning {
   padding: 32px 0px;
-  background-color: #d3d3d3;
+  background-color: #7fbbc8;
+  margin-bottom: 32px;
 }
 
 .learning .title {
@@ -237,8 +270,8 @@ a:hover {
 }
 
 .thesis {
-  background-color: #f0ffff;
-  border-bottom: 1px solid #242424;
+  background-color: #f0f8ff;
+  border-bottom: 1px solid #7fbbc8;
 }
 
 .urban {
@@ -256,7 +289,7 @@ a:hover {
 }
 
 .video h4 {
-  font-family: 'Wellfleet', cursive;
+  font-family: 'Cabin Sketch', cursive;
   margin-bottom: 10px;
 }
 
@@ -270,11 +303,15 @@ a:hover {
 }
 
 .item.fisma {
-  background-color: #ffffff;
+  background-color: #7fbbc8;
 }
 
 .item.fisma p {
   line-height: 1rem;
+}
+
+.item.fisma h5 {
+  color: #fff;
 }
 
 
