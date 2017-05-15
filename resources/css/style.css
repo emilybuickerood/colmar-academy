@@ -100,6 +100,10 @@ a:hover {
   color: 	#7fbbc8;
 }
 
+span.mobile {
+  display: none;
+}
+
 .main-container {
   max-width: 960px;
   margin: 0 auto;
@@ -111,7 +115,7 @@ a:hover {
 }
 
 .banner {
-    display: flex;
+  display: flex;
 }
 
 .image {
@@ -144,7 +148,7 @@ a:hover {
   color: #ffffff;
   font-size: 1rem;
   background-color:  #7fbbc8;
-  padding: 8px 120px;
+  padding: .5em 9em;
 }
 
 .get-started span:hover {
@@ -227,6 +231,14 @@ a:hover {
 
 .item.lecture img {
   border: 1px solid #fff;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.option-mobile {
+  display: none;
 }
 
 .info h5 {
@@ -334,4 +346,175 @@ footer {
   text-align: left;
   padding: 20px 24px;
   color: #242424;
+}
+
+@media only screen and (max-width: 480px) {
+
+nav {
+  display: flex;
+}
+span.mobile {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 5rem;
+
+}
+
+span.mobile:hover {
+  opacity: 0.7;
+}
+
+span.navigation {
+  display: none;
+}
+
+.logo {
+  display: none;
+  }
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.image {
+  height: 180px;
+  padding: 0;
+  margin: 0;
+}
+
+.banner img {
+width: 100%;
+height: auto;
+display: block;
+margin-bottom: 10px;
+}
+
+.get-started {
+  display: block;
+  margin-top: 200px;
+  padding-left: 16px;
+}
+
+.get-started h2 {
+  font-size: 3rem;
+}
+
+.get-started h4 {
+  font-size: 1.75rem;
+}
+.get-started span {
+  padding: .5em 11em;
+}
+
+.practicing {
+  margin: 0;
+}
+
+.main {
+  display: none;
+}
+
+.side-bar {
+  width: 480px;
+  border-left: none;
+  margin-left: 16px;
+}
+
+.regular {
+  display: none;
+}
+
+.mobile-img {
+  display: block;
+}
+
+.item {
+  display: block;
+}
+
+.item img{
+  width: 90%;
+}
+
+.item.orientation {
+  border-bottom: none;
+}
+
+.item.campus {
+  border-bottom: none;
+}
+
+.item.lecture {
+  background-color: #f0f8ff;
+}
+
+.item.lecture h5 {
+  color: #7fbbc8;
+}
+
+.item.lecture a {
+  color: #242424;
+  padding-bottom: 20px;
+}
+
+.item.lecture a:hover {
+  color: #7fbbc8;
+}
+
+.info {
+  margin: 0px 0px 10px 32px;
+}
+
+.option {
+  display: none;
+}
+
+.option-mobile {
+  display: block;
+  margin-left: 16px;
+}
+
+.option-mobile ul {
+  list-style: none;
+}
+
+.option-mobile span {
+  background-color: #fff;
+  padding: 16px 16px;
+}
+
+.option-mobile ul li {
+    margin-bottom: 40px;
+}
+
+.mini-side-bar {
+  display: none;
+}
+
+.video {
+  padding: 0;
+  margin: 0;
+}
+.video video {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  border: none;
+}
+
+.video h4 {
+  display: none;
+}
+
+.video p {
+  display: none;
+}
+
+footer {
+  text-align: center;
+}
+
 }
