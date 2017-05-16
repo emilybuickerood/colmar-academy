@@ -360,6 +360,39 @@ footer {
     padding-right: 24px;
     max-width: 768px;
   }
+
+  .image {
+    margin-right: 20px;
+  }
+
+  .get-started h2{
+    font-size: 1.95rem;
+  }
+
+  .get-started h4 {
+    font-size: 1.25rem;
+  }
+  .get-started span {
+    padding: .5em 5.5em;
+  }
+
+  .practicing h3 {
+    font-size: 1.25rem;
+    padding-bottom: 15px;
+  }
+
+  .practicing span {
+    font-size: .75rem;
+  }
+
+  .practicing p {
+    padding-bottom: 15px;
+    line-height: normal;
+  }
+
+  .main {
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -382,7 +415,7 @@ span.navigation {
 
 .logo {
   display: none;
-  }
+}
 
 .banner {
   display: flex;
